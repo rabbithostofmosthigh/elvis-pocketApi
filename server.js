@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Email credentials
 const userEmail = "amienseniola99@gmail.com";
-const pass = "tgydfmhlcpthufik";
+//const pass = "tgydfmhlcpthufik";
 
 // Helper function to create transporter (DRY principle)
 const createTransporter = () => {
@@ -215,3 +215,4 @@ ${complaint || "No complaint message provided"}`,
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
+
